@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#ui {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.shelf {
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
