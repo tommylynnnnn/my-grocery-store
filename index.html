@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Grocery Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="ui">
+    <h1>🛒 My Grocery Store</h1>
+    <p>Money: $<span id="money">100</span></p>
+
+    <button onclick="restock('apples')">Restock Apples ($5)</button>
+    <button onclick="restock('bread')">Restock Bread ($8)</button>
+  </div>
+
+  <div id="store">
+    <div class="shelf">
+      <h3>Shelf</h3>
+      <p>Apples: <span id="applesStock">0</span></p>
+      <p>Bread: <span id="breadStock">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
